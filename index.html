@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Siddharth Shah | Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #0f172a;
+      color: white;
+    }
+    header {
+      background: #1e293b;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #38bdf8;
+      text-decoration: none;
+    }
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 10px;
+    }
+    button {
+      padding: 10px 15px;
+      border: none;
+      background: #38bdf8;
+      color: black;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Siddharth S. Shah</h1>
+  <p>Java Backend Developer | Spring Boot | REST APIs</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>I am a Java Backend Developer focused on building scalable APIs using Spring Boot, MySQL, and JWT authentication.</p>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="card">
+    <h3>User Management System</h3>
+    <p>Built REST APIs with authentication and CRUD operations using Spring Boot and MySQL.</p>
+  </div>
+  <div class="card">
+    <h3>Health Monitoring System</h3>
+    <p>Developed a system to track and monitor health data.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: siddharth@example.com</p>
+  <button onclick="showMessage()">Say Hi</button>
+</section>
+
+<script>
+  function showMessage() {
+    alert("Thanks for visiting my portfolio!");
+  }
+</script>
+
+</body>
+</html>
